@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <div class="wrapper border border-secondary mx-auto my-3">
+        <header class="container-fluid">
+            <div class="row  my-bg  px-5">
+                <nav class="col-11 navbar p-0 navbar-expand-md">
+                    <a class="navbar-brand" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                            class="bi bi-person-square text-light" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z" />
+                        </svg>
+                    </a>
+                    <button class="navbar-toggler d-md-none d-block justify-self-end" type="button"
+                        data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false" aria-label="Переключатель навигации">
+                        <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                fill="currentColor" class="bi bi-list text-light" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                            </svg></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <div class="link-box"><a class="nav-link p-0 text-light active" href="#">Home </a>
+                            </div>
+                            <div class="link-box"><a class="nav-link p-0 text-light" href="#">Homework</a></div>
+                            <div class="link-box"><a class="nav-link p-0 text-light" href="#">Settings</a></div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="col-1">
+                    <img src="images/av_64.png" width="50" alt="portreit">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col title text-center py-3">
+                    <h1>Dakota Greenaway (ABS_123)</h1>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <div class="row justify-content-between border-top border-top-secondary">
+                <div class="col-12 col-md-9 m-md-auto col-lg-6 text-center">
+                    <h2 class="py-3">News</h2>
+                    <section class="row news p-2 border border-secondary">
+                        <div class="col-4 news__picture p-3">
+                            <img src="images/holiday.png" alt="calendar">
+                        </div>
+                        <div class="col-8 text-left p-0">
+                            <div class="news__header d-flex justify-content-between">
+                                <h6 class="d-inline">Weekends</h6>
+                                <time pubtime="1 days ago" class="text-muted ">1 days ago</time>
+                            </div>
+                            <div class="news__content py-3">
+                                <p>Dear students, kindly be informed that there will be no lessons jn 5th and 6th April
+                                    at tha Academy due to the holiday.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="row news p-2 border border-secondary">
+                        <div class="col-12 text-left p-0">
+                            <div class="news__header d-flex justify-content-between">
+                                <h6 class="d-inline">Programming consultations</h6>
+                                <time pubtime="1 days ago" class="text-muted ">3 days ago</time>
+                            </div>
+                            <div class="news__content py-3">
+                                <p>This Sunday, Murch 26 at 1.00 pm the Academy will be holding programming
+                                    consultations for first-year students.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="row news p-2 border border-secondary">
+                        <div class="col-4 news__picture p-3">
+                            <img src="images/bank.png" alt="bank">
+                        </div>
+                        <div class="col-8 text-left p-0">
+                            <div class="news__header d-flex justify-content-between">
+                                <h6 class="d-inline">Meeting with ABS bank</h6>
+                                <time pubtime="1 days ago" class="text-muted ">20.03.2019</time>
+                            </div>
+                            <div class="news__content py-3">
+                                <p>On Monday, March 27 at 7.00 pm, we invite you to business meeting with ABS bank.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <button type="button"
+                            class="col btn btn-light btn-outline-secondary btn-block my-4 border-0 btn-active">More</button>
+                    </section>
+                </div>
+                <div class="col-12 col-md-9 col-lg-6 p-0 negative-right text-center">
+                    <h2 class=" col-12 px-0 py-3">Rewards</h2>
+                    <div class="rewards-wrapper d-flex flex-column justify-content-between">
+                        <div class="row w-100 justify-content-end negativ-top">
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="0 5, 0 35, 115 35, 130 20, 115 5, 0 5;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="5" y="25" fill="black">Class attended</text>
+                                </svg>
+                            </div>
+                            <div class="col-3 p-0">
+                                <p class=" h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
+                                        alt="medal">
+                                </p>
+                            </div>
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="0 20, 15 35, 85 35, 85 5, 15 5, 0 20;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="15" y="25" fill="black" font-size="0.8rem">20.04.2019</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row w-100 justify-content-end negativ-top">
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="30 5, 30 35, 115 35, 130 20, 115 5, 30 5;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="35" y="25" fill="black" font-size="0.8rem">19.04.2019</text>
+                                </svg>
+                            </div>
+                            <div class="col-3 p-0">
+                                <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
+                                        alt="medal">
+                                </p>
+                            </div>
+                            <div class="col-4 p-0">
+                                <svg width="135" height="35">
+                                    <polygon points="0 20, 15 35, 135 35, 135 5, 15 5, 0 20;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="15" y="25" fill="black">Class attended</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row w-100 justify-content-end negativ-top">
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="0 5, 0 35, 115 35, 130 20, 115 5, 0 5;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="5" y="25" fill="black">Class attended</text>
+                                </svg>
+                            </div>
+                            <div class="col-3 p-0">
+                                <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
+                                        alt="medal">
+                                </p>
+                            </div>
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="0 20, 15 35, 85 35, 85 5, 15 5, 0 20;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="15" y="25" fill="black" font-size="0.8rem">18.04.2019</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row w-100 justify-content-end negativ-top">
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="30 5, 30 35, 115 35, 130 20, 115 5, 30 5;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="35" y="25" fill="black" font-size="0.8rem">17.04.2019</text>
+                                </svg>
+                            </div>
+                            <div class="col-3 p-0">
+                                <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
+                                        alt="medal">
+                                </p>
+                            </div>
+                            <div class="col-4 p-0">
+                                <svg width="135" height="35">
+                                    <polygon points="0 20, 15 35, 135 35, 135 5, 15 5, 0 20;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="15" y="25" fill="black">Class attended</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row w-100 justify-content-end negativ-top">
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="0 5, 0 35, 115 35, 130 20, 115 5, 0 5;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="5" y="25" fill="black">Class attended</text>
+                                </svg>
+                            </div>
+                            <div class="col-3 p-0">
+                                <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
+                                        alt="medal">
+                                </p>
+                            </div>
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="0 20, 15 35, 85 35, 85 5, 15 5, 0 20;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="15" y="25" fill="black" font-size="0.8rem">16.04.2019</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row w-100 justify-content-end negativ-top">
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="30 5, 30 35, 115 35, 130 20, 115 5, 30 5;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="35" y="25" fill="black" font-size="0.8rem">15.04.2019</text>
+                                </svg>
+                            </div>
+                            <div class="col-3 p-0">
+                                <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
+                                        alt="medal">
+                                </p>
+                            </div>
+                            <div class="col-4 p-0">
+                                <svg width="135" height="35">
+                                    <polygon points="0 20, 15 35, 135 35, 135 5, 15 5, 0 20;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="15" y="25" fill="black">Class attended</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row w-100 justify-content-end negativ-top">
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="0 5, 0 35, 115 35, 130 20, 115 5, 0 5;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="5" y="25" fill="black">Class attended</text>
+                                </svg>
+                            </div>
+                            <div class="col-3 p-0">
+                                <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
+                                        alt="medal">
+                                </p>
+                            </div>
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="0 20, 15 35, 85 35, 85 5, 15 5, 0 20;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="15" y="25" fill="black" font-size="0.8rem">14.04.2019</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row w-100 justify-content-end negativ-top">
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="30 5, 30 35, 115 35, 130 20, 115 5, 30 5;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="35" y="25" fill="black" font-size="0.8rem">13.04.2019</text>
+                                </svg>
+                            </div>
+                            <div class="col-3 p-0">
+                                <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
+                                        alt="medal">
+                                </p>
+                            </div>
+                            <div class="col-4 p-0">
+                                <svg width="135" height="35">
+                                    <polygon points="0 20, 15 35, 135 35, 135 5, 15 5, 0 20;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="15" y="25" fill="black">Class attended</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row w-100 justify-content-end negativ-top">
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="0 5, 0 35, 115 35, 130 20, 115 5, 0 5;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="5" y="25" fill="black">Class attended</text>
+                                </svg>
+                            </div>
+                            <div class="col-3 p-0">
+                                <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
+                                        alt="medal">
+                                </p>
+                            </div>
+                            <div class="col-4 p-0">
+                                <svg width="130" height="35">
+                                    <polygon points="0 20, 15 35, 85 35, 85 5, 15 5, 0 20;"
+                                        style="fill: white; stroke: black;" />
+                                    <text x="15" y="25" fill="black" font-size="0.8rem">12.04.2019</text>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="row mx-0">
+                        <button type="button"
+                            class="col btn btn-light btn-outline-secondary btn-block px-0 my-4 border-0 ">More</button>
+                    </section>
+                </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

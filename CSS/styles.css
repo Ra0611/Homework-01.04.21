@@ -1,0 +1,46 @@
+.wrapper {
+    max-width: 992px;
+}
+.my-bg{
+    background: rgb(16, 72, 109);
+}
+
+.container{
+     max-width: 900px;
+}
+.link-box {
+    width: 6rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+a:hover, a.active{
+    font-weight: 700;
+
+}
+h1, h2, h3, p {
+    font-weight: 100;
+}
+
+.news__picture img {
+    width: 100%;
+}
+.news__content p {
+font-size: 0.85rem;
+}
+
+.negativ-top {
+    margin-top: -5px;
+}
+@media screen and (min-width:576px){
+    .negative-right {
+        margin: auto;
+    }
+}
+@media screen and (min-width:992px){
+    .negative-right {
+        margin-right: -30px;
+    }
+}
+.rewards-wrapper {
+    height: 457.2px;
+}
