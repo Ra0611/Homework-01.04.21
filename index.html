@@ -14,8 +14,8 @@
 <body>
     <div class="wrapper border border-secondary mx-auto my-3">
         <header class="container-fluid">
-            <div class="row  my-bg  px-5">
-                <nav class="col-11 navbar p-0 navbar-expand-md">
+            <div class="row my-bg px-5">
+                <nav class="col-8 col-sm-9 col-md-11 navbar p-0 navbar-expand-md">
                     <a class="navbar-brand" href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
                             class="bi bi-person-square text-light" viewBox="0 0 16 16">
@@ -24,26 +24,30 @@
                                 d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z" />
                         </svg>
                     </a>
-                    <button class="navbar-toggler d-md-none d-block justify-self-end" type="button"
+                    
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <div class="link-box align-self-start text-left mt-3"><a class="nav-link p-0 text-light active" href="#">Home </a>
+                            </div>
+                            <div class="link-box align-self-start text-left mt-3"><a class="nav-link p-0 text-light" href="#">Homework</a></div>
+                            <div class="link-box align-self-start text-left my-3"><a class="nav-link p-0 text-light" href="#">Settings</a></div>
+                        </div>
+                    </div>
+                    
+                </nav>
+                <div class=" col-4 col-sm-3 col-md-1 d-flex">
+                    <button class="navbar-toggler d-md-none d-flex pt-2 pr-0 text-top" type="button"
                         data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                         aria-expanded="false" aria-label="Переключатель навигации">
-                        <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        <span class="navbar-toggler-icon d-inline"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                 fill="currentColor" class="bi bi-list text-light" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
                             </svg></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <div class="link-box"><a class="nav-link p-0 text-light active" href="#">Home </a>
-                            </div>
-                            <div class="link-box"><a class="nav-link p-0 text-light" href="#">Homework</a></div>
-                            <div class="link-box"><a class="nav-link p-0 text-light" href="#">Settings</a></div>
-                        </div>
+                    <div class=" pl-0">
+                        <img src="images/av_64.png" width="50" alt="portreit">
                     </div>
-                </nav>
-                <div class="col-1">
-                    <img src="images/av_64.png" width="50" alt="portreit">
                 </div>
             </div>
             <div class="row">
@@ -106,19 +110,19 @@
                     <h2 class=" col-12 px-0 py-3">Rewards</h2>
                     <div class="rewards-wrapper d-flex flex-column justify-content-between">
                         <div class="row w-100 justify-content-end negativ-top">
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0  scale">
                                 <svg width="130" height="35">
                                     <polygon points="0 5, 0 35, 115 35, 130 20, 115 5, 0 5;"
                                         style="fill: white; stroke: black;" />
                                     <text x="5" y="25" fill="black">Class attended</text>
                                 </svg>
                             </div>
-                            <div class="col-3 p-0">
+                            <div class="col-3 p-0 scale">
                                 <p class=" h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
                                         alt="medal">
                                 </p>
                             </div>
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="0 20, 15 35, 85 35, 85 5, 15 5, 0 20;"
                                         style="fill: white; stroke: black;" />
@@ -127,19 +131,19 @@
                             </div>
                         </div>
                         <div class="row w-100 justify-content-end negativ-top">
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="30 5, 30 35, 115 35, 130 20, 115 5, 30 5;"
                                         style="fill: white; stroke: black;" />
                                     <text x="35" y="25" fill="black" font-size="0.8rem">19.04.2019</text>
                                 </svg>
                             </div>
-                            <div class="col-3 p-0">
+                            <div class="col-3 p-0 scale">
                                 <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
                                         alt="medal">
                                 </p>
                             </div>
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="135" height="35">
                                     <polygon points="0 20, 15 35, 135 35, 135 5, 15 5, 0 20;"
                                         style="fill: white; stroke: black;" />
@@ -148,19 +152,19 @@
                             </div>
                         </div>
                         <div class="row w-100 justify-content-end negativ-top">
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="0 5, 0 35, 115 35, 130 20, 115 5, 0 5;"
                                         style="fill: white; stroke: black;" />
                                     <text x="5" y="25" fill="black">Class attended</text>
                                 </svg>
                             </div>
-                            <div class="col-3 p-0">
+                            <div class="col-3 p-0 scale">
                                 <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
                                         alt="medal">
                                 </p>
                             </div>
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="0 20, 15 35, 85 35, 85 5, 15 5, 0 20;"
                                         style="fill: white; stroke: black;" />
@@ -169,19 +173,19 @@
                             </div>
                         </div>
                         <div class="row w-100 justify-content-end negativ-top">
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="30 5, 30 35, 115 35, 130 20, 115 5, 30 5;"
                                         style="fill: white; stroke: black;" />
                                     <text x="35" y="25" fill="black" font-size="0.8rem">17.04.2019</text>
                                 </svg>
                             </div>
-                            <div class="col-3 p-0">
+                            <div class="col-3 p-0 scale">
                                 <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
                                         alt="medal">
                                 </p>
                             </div>
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="135" height="35">
                                     <polygon points="0 20, 15 35, 135 35, 135 5, 15 5, 0 20;"
                                         style="fill: white; stroke: black;" />
@@ -190,19 +194,19 @@
                             </div>
                         </div>
                         <div class="row w-100 justify-content-end negativ-top">
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="0 5, 0 35, 115 35, 130 20, 115 5, 0 5;"
                                         style="fill: white; stroke: black;" />
                                     <text x="5" y="25" fill="black">Class attended</text>
                                 </svg>
                             </div>
-                            <div class="col-3 p-0">
+                            <div class="col-3 p-0 scale">
                                 <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
                                         alt="medal">
                                 </p>
                             </div>
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="0 20, 15 35, 85 35, 85 5, 15 5, 0 20;"
                                         style="fill: white; stroke: black;" />
@@ -211,19 +215,19 @@
                             </div>
                         </div>
                         <div class="row w-100 justify-content-end negativ-top">
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="30 5, 30 35, 115 35, 130 20, 115 5, 30 5;"
                                         style="fill: white; stroke: black;" />
                                     <text x="35" y="25" fill="black" font-size="0.8rem">15.04.2019</text>
                                 </svg>
                             </div>
-                            <div class="col-3 p-0">
+                            <div class="col-3 p-0 scale">
                                 <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
                                         alt="medal">
                                 </p>
                             </div>
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="135" height="35">
                                     <polygon points="0 20, 15 35, 135 35, 135 5, 15 5, 0 20;"
                                         style="fill: white; stroke: black;" />
@@ -232,19 +236,19 @@
                             </div>
                         </div>
                         <div class="row w-100 justify-content-end negativ-top">
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="0 5, 0 35, 115 35, 130 20, 115 5, 0 5;"
                                         style="fill: white; stroke: black;" />
                                     <text x="5" y="25" fill="black">Class attended</text>
                                 </svg>
                             </div>
-                            <div class="col-3 p-0">
+                            <div class="col-3 p-0 scale">
                                 <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
                                         alt="medal">
                                 </p>
                             </div>
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="0 20, 15 35, 85 35, 85 5, 15 5, 0 20;"
                                         style="fill: white; stroke: black;" />
@@ -253,19 +257,19 @@
                             </div>
                         </div>
                         <div class="row w-100 justify-content-end negativ-top">
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="30 5, 30 35, 115 35, 130 20, 115 5, 30 5;"
                                         style="fill: white; stroke: black;" />
                                     <text x="35" y="25" fill="black" font-size="0.8rem">13.04.2019</text>
                                 </svg>
                             </div>
-                            <div class="col-3 p-0">
+                            <div class="col-3 p-0 scale">
                                 <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
                                         alt="medal">
                                 </p>
                             </div>
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="135" height="35">
                                     <polygon points="0 20, 15 35, 135 35, 135 5, 15 5, 0 20;"
                                         style="fill: white; stroke: black;" />
@@ -274,19 +278,19 @@
                             </div>
                         </div>
                         <div class="row w-100 justify-content-end negativ-top">
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="0 5, 0 35, 115 35, 130 20, 115 5, 0 5;"
                                         style="fill: white; stroke: black;" />
                                     <text x="5" y="25" fill="black">Class attended</text>
                                 </svg>
                             </div>
-                            <div class="col-3 p-0">
+                            <div class="col-3 p-0 scale">
                                 <p class="h4 m-0 text-top">+1 <img src="images/badge.png" width="35" height="35"
                                         alt="medal">
                                 </p>
                             </div>
-                            <div class="col-4 p-0">
+                            <div class="col-4 p-0 scale">
                                 <svg width="130" height="35">
                                     <polygon points="0 20, 15 35, 85 35, 85 5, 15 5, 0 20;"
                                         style="fill: white; stroke: black;" />

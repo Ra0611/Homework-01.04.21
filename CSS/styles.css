@@ -44,3 +44,9 @@ font-size: 0.85rem;
 .rewards-wrapper {
     height: 457.2px;
 }
+@media screen and (max-width:380px){
+    .scale{
+        transform: scale(0.7);
+        font-size: 1.15rem;
+    }
+}
